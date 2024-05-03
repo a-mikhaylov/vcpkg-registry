@@ -1,3 +1,6 @@
 {
-    "default": {}
+    "name": "mycpplibtest",
+    "version": "1.0.0",
+    "dependencies": [],
+    "builtin-baseline":"5f55757076a3a6e48fc47c5731fbc9cdc73630ae"
 }
