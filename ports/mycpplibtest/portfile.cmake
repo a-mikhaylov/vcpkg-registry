@@ -1,13 +1,12 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO a-mikhaylov/my-c-lib
-    REF 2105b76
-    SHA512 a8adf31496f4a2a9d82a43b178cc4bef001cf849c5283fbeea51b88e9a23514036ddaaea5a95b1d0bcfb23d1d8d3037037e781567f7060888bf22b1cd221c148    
+    REF 66cc8d2
+    SHA512 edc6376e605ca13602dc39a78db52772a830f01d830e025e7a6f37c7ff815419f03a9a1007b09dcc32b2f95f9ce34c1345775898412479f768b73c93b5440f3b    
     HEAD_REF main
 )
 
 set(VCPKG_POLICY_DLLS_WITHOUT_LIBS enabled)
-set(VCPKG_POLICY_DLLS_WITHOUT_EXPORTS enabled)
 
 vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
 vcpkg_cmake_install()
