@@ -6,7 +6,7 @@ vcpkg_from_github(
     HEAD_REF main
 )
 
-# set(VCPKG_POLICY_DLLS_WITHOUT_LIBS enabled)
+set(VCPKG_POLICY_DLLS_WITHOUT_LIBS enabled)
 
 vcpkg_configure_cmake(
     SOURCE_PATH "${SOURCE_PATH}"
@@ -17,4 +17,4 @@ vcpkg_fixup_cmake_targets()
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(INSTALL "${SOURCE_PATH}/COPYING" DESTINATION "${CURRENT_PACKAGES_DIR}/share/mycpplibtest" RENAME copyright)
-# file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/lib" "${CURRENT_PACKAGES_DIR}/lib")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/lib" "${CURRENT_PACKAGES_DIR}/lib")
