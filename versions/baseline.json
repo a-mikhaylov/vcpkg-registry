@@ -3,6 +3,10 @@
         "mycpplibtest": {
             "baseline": "1.0.0",
             "port-version": 0
+        },
+        "fileunv": {
+            "baseline": "1.0.0",
+            "port-version": 0
         }
     }
 }

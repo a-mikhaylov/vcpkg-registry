@@ -1,0 +1,11 @@
+{
+    "name": "fileunv",
+    "version-string": "1.0.0",
+    "description": "Incart's file library for dat-files of devices of 7th series.",
+    "dependencies": [
+      {
+        "name": "vcpkg-cmake",
+        "host": true
+      }
+    ]
+}
