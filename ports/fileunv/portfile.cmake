@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL git@github.com:IncartDev/crossplatform-file-dll.git
-    REF 5f13ccd2595ee7e1dfdefcd147f37f70b4c88385
+    REF 3fb36614493a595690bd548d02f4472d77ec20b3
     HEAD_REF man
 )
 
